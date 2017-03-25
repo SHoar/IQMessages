@@ -1,0 +1,94 @@
+<!-- Elements -->
+body {
+  background-color: #F7F6F2;
+  font-family: Arial, sans-serif;
+  width: 100%;
+}
+
+
+<!-- Navigation -->
+header {
+  background-color: #FFFFFF;
+}
+.menu{
+  margin-top: -10px;
+  background-color: #446C99;
+  border-bottom: 5px solid #1ABC9C;
+  height: 60px;
+}
+.navbar li {
+  display: inline;
+  color: #FFFFFF;
+  list-style-type:none;
+  padding: 10px;
+  margin-top: 25px;
+}
+.shortcuts li{
+  position: absolute;
+  right: 70px;
+  font-weight: bold;
+  list-style-type: none;
+}
+.icon {
+  position: absolute;
+}
+.history-icon {
+  right: 150px;
+  top: 30px;
+  padding-right: 20px;
+}
+.star-icon {
+  right: 130px;
+  top: 30px;
+}
+
+aside {
+  height: 1000px;
+  width: 25%;
+  float: left;
+  padding-top: 5px;
+  border-right: 2px solid #cccccc;
+  border: 1px solid green;
+  line-height: 1.5;
+  z-index: 1;
+}
+.filters {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: #446c99;
+  height: 1000px;
+}
+.filters input {
+  border-radius: 5px;
+  line-height: 1.5;
+  padding: 5px;
+}
+.search {
+  background-color: #446c99;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+
+
+
+<!-- Sections & Divs -->
+
+.main {
+  padding-left: 10px;
+  width: 70%;
+  z-index: 2;
+  clear:right;
+}
+.main h2{
+  color: #4466C99;
+  height: 80%;
+  padding-left: 10px;
+}
+.listSide {
+  border: 1px solid red;
+}
+.results tr, .results li {
+  padding: 4px;
+  border: 1px solid #cccccc;
+  list-style-type: none;
+}
